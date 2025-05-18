@@ -8,7 +8,7 @@ export const projectsData = [
     ["ToDo organizer", "A task management application to help users organize their tasks efficiently.",
         "https://abdallaskar.github.io/Todo_list_app/", "https://github.com/abdallaskar/Todo_list_app", "todo/1.jpg", "todo/2.jpg", "todo/3.jpg", "todo/4.jpg"],
     ["E-Recipt", "A recipe application that provides users with a variety of recipes and cooking tips.",
-        "https://example.com", "https://github.com/yourusername/project2", "recipt/1.jpg", "recipt/2.jpg", "recipt/3.jpg", "recipt/4.jpg"]
+        "https://abdallaskar.github.io/E-Receipt/", "https://github.com/abdallaskar/E-Receipt", "recipt/1.jpg", "recipt/2.jpg", "recipt/3.jpg", "recipt/4.jpg"]
 ];
 export const longDescription = [
     [` <h3>Drive Easy Modern Car Rental System</h3>
