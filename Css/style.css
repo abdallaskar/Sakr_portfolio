@@ -208,7 +208,10 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: var(--green-color) !important;
+    /* color: var(--green-color) !important; */
+    font-weight: 700;
+    color: #00ff88;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
     animation: fadeInDown 1s ease forwards;
 }
 
@@ -222,13 +225,13 @@ body {
 /* Individual skill items */
 .skills-section .col-md-3,
 .skills-section .col-6 {
-    background-color: var(--dark-color);
+    background-color: var(--white-color);
     /* border: 2px solid var(--green-color); */
     /* margin-bottom: 1rem; */
     border-radius: 12px;
     font-size: 1.15rem;
-    font-weight: 400;
-    color: var(--white-color);
+    font-weight: 700;
+    color: var(--green-color);
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeInUp 0.8s ease forwards;
@@ -337,29 +340,39 @@ body {
 /* start project section */
 #projects h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: var(--green-color);
 }
 
+#projects h2 span {
+    color: var(--green-color);
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+}
+
+/* الصورة */
 .carousel-item img {
     margin-top: 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
+/* كارت المشروع مع ظل أخضر شفاف */
 .card-hover {
     transition: all 0.3s ease-in-out;
-    border: 2px solid transparent;
+    /* border: 2px solid var(--green-color); */
     border-radius: 20px;
+    box-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
+    /* أخضر لكن شفاف جداً */
 }
 
+/* تأثير عند المرور على الكارت */
 .card-hover:hover {
     transform: scale(1.02);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    border: 2px solid #20c997;
-    /* Teal or any accent color */
+    border: 2px solid var(--green-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15), 0 0 24px 4px rgba(46, 149, 91, 0.25);
 }
 
+/* زر View Details */
 .button-card .btn-primary {
     background: linear-gradient(135deg, var(--dark-color) 0%, var(--dark-color3) 100%);
     border: none;
@@ -371,12 +384,15 @@ body {
     padding: 0.25rem 1rem;
 }
 
+/* عند المرور على الزر */
 .button-card .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    color: var(--green-color);
+    color: #aaffcc;
+    /* لون أفتح مناسب مع الخلفية */
 }
 
+/* عنوان الكارت */
 .card-title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -384,10 +400,10 @@ body {
     text-align: center;
 }
 
+/* وصف المشروع */
 .card-text {
     font-size: 1rem;
     color: black;
-
 }
 
 
